@@ -1,0 +1,49 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "28d53c79-9724-4258-9704-815be018dee7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Вывести среднюю букву, если число букв в слове нечётное и две средних буквы, если число букв чётное\n",
+    "print(\"Введите слово из латинских букв:\")\n",
+    "my_word= input(\" \") #Ввод с клавиатуры\n",
+    "if len(my_word) % 2 != 0:                   # Если кол-во введенных букв нечетное\n",
+    "    print(my_word[len(my_word)//2])               #определяем средний элемент в строке при целочисленном делении длины строки\n",
+    "else:                                 #если кол-во введенных букв четное\n",
+    "    print(my_word[len(my_word)//2-1:len(my_word)//2+1]) #выводим диапазон средний двух значений строки\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1987c4dd-2482-459a-94e8-d6ecb8164670",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
